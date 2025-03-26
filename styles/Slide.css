@@ -1,0 +1,9 @@
+.slide-box{
+    width: 500px;
+    height:350px;
+    background-color: teal;
+}
+.slide-parent{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+.box-text-secure{
+    display: flex;
+    text-align: center;
+}
+.parent-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 70%;
+}
+.first-line{
+    text-align: center;
+}
+.main-box{
+display: flex;
+justify-content: center;
+}
+.box-secure{
+    width: 40%;
+    font-size: 14px;
+    color: gray;
+}
+.box-members{
+    display: flex;
+}

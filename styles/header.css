@@ -1,0 +1,141 @@
+.parent-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    /* background-color: teal; */
+    gap: 80px;
+    margin-bottom: 80px;
+    padding-top: 30px;
+}
+.child-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 20%;
+}
+.header-login{
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-inline: 15px;
+    padding-block: 5px;
+}
+.header-english{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.parent-second{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    /* gap: 80px; */
+}
+.header-sign{
+    background-color:#218838;
+    color: white;
+    width: 66%;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+.input-parent{
+    /* background-color: white; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 30px;
+}
+.input-child-div{
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.div-width{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input-nick{
+    background-color: white;
+    width: 66%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+.input-nick-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.div-right-header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: end;
+    align-items: end; */
+    width: 25%;
+}
+.div-islamic{
+    font-size: 40px;
+    font-weight: 500;
+}
+.div-rightDiv-p{
+    font-size: 20px;
+}
+.div-rightDiv-p2{
+    font-size: 16px;
+}
+.div-main{
+    background-image: url('../public/islami-tinder.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img-parent-div{
+    width: 100%;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.img-child-div{
+    width: 150px;
+}
+.box3-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-parent{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    justify-content: center;
+}
+.box-container{
+    background-color: #F8F8F8;
+    /* background-color: teal; */
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    margin-block: 20px;
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.header-img{
+    cursor: pointer;
+}

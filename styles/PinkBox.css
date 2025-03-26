@@ -1,0 +1,54 @@
+.pink-box{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  
+}
+.gradient{
+    margin-top: 50px;
+    width: 70%;
+    background-image: linear-gradient(rgb(145,38,120),rgb(174,38,111),rgb(202,39,103),rgb(226,39,96));
+    border-radius: 20px;
+    margin-bottom: 30px;
+   
+}
+.star-box{
+    display: flex;
+    color: white;
+    justify-content: center;
+
+}
+.star-box-child{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+   font-weight: 700;
+}
+.phone-box{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.img-pink-box{
+    width: 150px;
+}
+.little-img{
+    display: flex;
+    gap: 20px;
+}
+.img1{
+    width: 20px;
+}
+.gradient-bold{
+    color: white;
+    font-size: 20px;
+}
+.gradient-bold-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
