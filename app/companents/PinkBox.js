@@ -1,5 +1,8 @@
 import React from 'react'
 import '../../styles/PinkBox.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+
 
 const PinkBox = () => {
   return (
@@ -8,19 +11,40 @@ const PinkBox = () => {
             <div className='gradient-bold-parent'><b className='gradient-bold'>What Our Members Say?</b></div>
             <div className='star-box'>
                 <div className='star-box-child'>
-                    <div>-------icon------</div>
+                    <div className='icons-box'> <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    
+                    
+                    </div>
                     <div> “Gayet güzel ve seviyeli, basit ve kullanımı kolay bir uygulama, sahte kişi yok diyebilirim.”</div>
                     <div className='little-img'>
                    <img className='img1' src='ayse.png'></img> Ayşe Coşkunerler</div>
                 </div>
                 <div  className='star-box-child'>
-                    <div>-----icon-----</div>
+                <div className='icons-box'> <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    
+                    
+                    </div>
                     <div> “Aradığınız kişiyi bulabileceğiniz bir site. Özenle hazırlanmış ve kullanışlı”</div>
                     <div className='little-img'>
                     <img className='img1' style={{borderRadius :'20px'}} src='yagmur.png'></img>Yağmur Kaya</div>
                     </div>
                 <div  className='star-box-child'>
-                 <div>-----icon</div>
+                <div className='icons-box'> <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    
+                    
+                    </div>
                 <div> “Güzel bir uygulama tamamen gerçeği yansıtıyor. Teması da güzel tavsiye ederim.”</div>
                 <div className='little-img'> <img className='img1' src='yeliz.png'></img>Yeliz Ece</div>
                 </div>

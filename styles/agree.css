@@ -1,0 +1,59 @@
+.div-header-agree{
+    /* background-color: #E72A7F; */
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+.div-parent-main{
+    background-color: #E72A7F;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div-member{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.div-agree-sign{
+    background-color: white;
+    color: black;
+    width: max-content;
+    height: max-content;
+    padding: 6px;
+}
+.agree-img{
+    padding: 8px;
+}
+.blog-agree{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.text-parent-agree{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-block: 20px;
+    
+}
+.texts{
+    width: 80%;
+    border: solid 1px #E9EAEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.text-centence{
+    font-size: 16px;
+    border-bottom: 1px solid #C7C8C9;
+    padding: 30px;
+    width: 95%;
+}
+.head-paragraf-agree{
+    font-size: 30px;
+    padding: 40px;
+}

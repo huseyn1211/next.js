@@ -1,6 +1,7 @@
 .box-text-secure{
     display: flex;
     text-align: center;
+    gap: 30px;
 }
 .parent-text{
     display: flex;
@@ -16,12 +17,39 @@
 .main-box{
 display: flex;
 justify-content: center;
+
 }
 .box-secure{
-    width: 40%;
-    font-size: 14px;
-    color: gray;
+    width: 50%;
 }
 .box-members{
     display: flex;
+   
+    text-align: center;
+    gap: 40px;
+}
+.box-first-h1{
+    font-size: 20px;
+    margin-block: 30px;
+}
+.box-second-p{
+    color: #8D8D8D;
+    font-size: 14px;
+    /* font-weight: 600; */
+
+}
+.box-secure-messaging{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-premium{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 80px;
+}
+.box-site{
+ font-weight: 600;
 }

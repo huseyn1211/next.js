@@ -15,7 +15,7 @@
     height: 100%;
     max-height: 292px;
     position: relative;
-    /* padding: 47px 35px; */
+   
     
 }
 .first-parent ::after{
@@ -23,9 +23,10 @@
     background-image:url('/phone1.png');
     background-position: center;
     background-size: contain;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
     height: 320px;
-    /* z-index: 1; */
     position: absolute;
     display: block;
     left: 30px;
@@ -47,9 +48,10 @@
     background-image:url('/box-2.png');
     background-position: center;
     background-size: contain;
-    width: 300px;
-    height: 330px;
-    /* z-index: 1; */
+    
+    width: 400px;
+   
+    height: 350px;
     position: absolute;
     display: block;
     right: 30px;
@@ -74,12 +76,12 @@
     background-position: center;
     background-size: contain;
     width: 300px;
-    height: 330px;
+    height: 340px;
     /* z-index: 1; */
     position: absolute;
     display: block;
     left: 30px;
-    top: -40px;
+    top: -20px;
 }
 
 
@@ -109,3 +111,90 @@
     font-size: 18px;
     margin-bottom: 10px;
 }
+.icons-box{
+    display: flex;
+    gap: 6px;
+    width: 70%;
+}
+
+@media(max-width:1200px){
+    .first-parent ::after{
+   
+        width: 100%;
+        max-width: 250px;
+        height: 100%;
+        height: 280px;
+       
+        left: 20px;
+        top: -30px;
+    }
+    .parent-lorem{
+        width: 70%;
+    }
+    .first-parent{
+        width: 80%;
+    }
+    .ex-parent{
+        width: 80%;
+    }
+
+    .ex-parent::after{
+      
+        width: 300px;
+        height: 330px;
+     
+        right: 30px;
+        top: -40px;
+    }
+
+
+}
+@media(max-width:1000px){
+    .first-parent ::after{
+   
+        width: 100%;
+        max-width: 250px;
+        height: 100%;
+        max-height: 500px;
+       
+        left: 0px;
+        
+        
+    }
+    .parent-lorem{
+        width: 70%;
+    }
+    .first-parent{
+        width: 95%;
+    }
+    .ex-parent{
+        width: 95%;
+    }
+    .ex-parent::after{
+     right: 0;
+        top: -20px;
+    }
+
+}
+@media(max-width:768px){
+    .first-parent ::after{
+   display: none;
+        
+    }
+    .parent-lorem{
+        width: 100%;
+    }
+    .ex-parent::after{
+      
+        display: none;
+    }
+
+    .ex-parent2::after{
+        display: none;
+    }
+    .ex-parent2{
+        width: 100%;
+        margin-inline: 20px;
+    }
+}
+

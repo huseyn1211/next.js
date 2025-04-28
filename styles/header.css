@@ -1,17 +1,22 @@
 .parent-div{
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    /* background-color: teal; */
-    gap: 80px;
+    justify-content: space-between;
+    /* margin: 20px; */
+    width: 75%;
     margin-bottom: 80px;
     padding-top: 30px;
+}
+.parent-div-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .child-div{
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
     width: 20%;
+    gap: 10px;
 }
 .header-login{
     border: 1px solid white;
@@ -20,40 +25,155 @@
     font-size: 16px;
     padding-inline: 15px;
     padding-block: 5px;
+    height: max-content;
+    width: max-content;
+    position: relative;
+}
+.header-login:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+
+}
+
+.modal{
+    color: black;
+    background-color: white;
+    position: absolute;
+ inset: 100 510;
+    border-radius: 15px;
+    padding: 40px;
+
+
+
+   
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.modal-img-parent{
+    display: flex;
+    justify-content: center;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.modal-p-parent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* color: red; */
+}
+.modal-gonul{
+    color: #8D8D8D;
+    font-weight: 600;
+}
+.modal-help{
+    color: #ABABAB;
+}
+.modal-input{
+    background-color: white;
+}
+.modal-input-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.modal-input{
+    border: solid 1px #ABABAB;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.modal-login{
+    background-color: #218838;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20;
+    padding: 8px;
+    border: 1px solid #86C695;
+    border-radius: 8px;
+}
+.modal-forget{
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom: solid 1px black;
+    width: max-content;
+    margin-bottom: 30px;
+}
+.modal-download{
+    color: #CB1A4E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.nav-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-img-child{
+    width: 120px;
+    height: 35px;
 }
 .header-english{
     color: white;
     text-align: center;
     padding: 5px;
+    display: flex;
+    gap: 15px;
 }
+.header-english:hover{
+    color: rgba(168, 159, 159, 0.381);
+   transition: 0.5s;
+   /* opacity: 5; */
+
+}
+    
+
 .parent-second{
-    /* background-color: red; */
+   
     display: flex;
     justify-content: center;
-    /* gap: 80px; */
+    gap: 150px;
+  margin-bottom: 50px;
 }
 .header-sign{
     background-color:#218838;
     color: white;
-    width: 66%;
+    width: 62%;
     text-align: center;
     font-size: 18px;
     padding: 5px;
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 2px white;
+    font-weight: 700;
 }
 .input-parent{
-    /* background-color: white; */
     display: flex;
-    /* justify-content: space-between; */
     width: 100%;
     gap: 30px;
 }
+
 .input-child-div{
     background-color: white;
     border-radius: 5px;
-    width: 30%;
-    padding: 7px;
+    width: 28.5%;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
@@ -62,55 +182,55 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .input-nick{
     background-color: white;
-    width: 66%;
+    width: 62%;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
     font-size: 15px;
 }
 .input-nick-parent{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .div-right-header{
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    /* justify-content: end;
-    align-items: end; */
+    gap: 15px;
+   text-align: end;
     width: 25%;
 }
 .div-islamic{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
+   
 }
 .div-rightDiv-p{
-    font-size: 20px;
+    font-size: 18px;
+  
 }
 .div-rightDiv-p2{
-    font-size: 16px;
+    font-size: 14px;
 }
 .div-main{
     background-image: url('../public/islami-tinder.jpg');
-    background-position: center;
+    background-position: center top -100px;
     background-size: cover;
 }
 .img-parent-div{
     width: 100%;
-    /* background-color: teal; */
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  
 }
-.img-child-div{
-    width: 150px;
+.img-div-store{
+    width: 10%;
+    
 }
 .box3-div{
     width: 100%;
@@ -121,21 +241,163 @@
     display: flex;
     background-color: white;
     border-radius: 5px;
-    width: 80%;
+    width: 75%;
     justify-content: center;
 }
 .box-container{
     background-color: #F8F8F8;
     /* background-color: teal; */
-    width: 30%;
+    width: 27%;
     padding: 10px;
     margin: auto;
-    margin-block: 20px;
-    /* border: solid 1px black; */
+    margin-block: 25px;
+    
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
 }
 .header-img{
     cursor: pointer;
+}
+.users-div{
+    color: white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.green-circle{
+    background-color: #1CD044;
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+}
+.icon-america{
+    width: 20px;
+    height: 20px;
+    /* margin-inline: 10px; */
+}
+.icon-down{
+    width: 20px;
+    height: 20px;
+}
+.img-header-icons{
+    padding: 15px;
+}
+.div-rightDiv-p2{
+    font-size: 16px;
+}
+.header-login-even{
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-inline: 15px;
+    padding-block: 5px;
+    height: max-content;
+    width: 90%;
+    position: relative;
+   
+    
+    display: none;
+    
+}
+.header-login-even:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+
+}
+.header-sign-even{
+    
+  
+        background-color:#218838;
+        color: white;
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 5px;
+        border: solid 2px white;
+        font-weight: 700;
+    display: none;
+    
+
+}
+.parent-even{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+ @media(max-width:888px){
+   
+    .img-div-store{
+        width: 20%;
+     }
+   
+    .input-parent{
+     gap: 12px;
+    
+ }
+ .parent-second{
+    display: none;
+ }
+ .parent-div{
+    width: 40%;
+ }
+ .header-login{
+    display: none;
+ }
+ .box-container{
+    width: 30%;
+    padding: 10px;
+    margin: 0;
+    margin-block: 0px;
+ }
+ .parent-div{
+    
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+.parent-div-width{
+    margin-bottom: 600px;
+}
+.box-parent{
+    width: 100%;
+}
+.header-login-even{
+    display: block;
+}
+.header-sign-even{
+    display: block;
+}
+}
+
+@media(max-width:650px){
+ .header-sign{
+    font-size: 12px;
+ }
+ .parent-div-width{
+    margin-bottom: 400px;
+}
+}
+@media(max-width:450px){
+.div-width{
+    width: 45%;
+}
+.parent-div{
+    gap: 50px;
+}
+.child-div{
+    width: 50%;
+}
+.parent-second{
+    padding: 15px;
+}
+.box-container{
+    width: 20%;
+}
 }

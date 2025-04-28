@@ -1,0 +1,57 @@
+.guide-menu{
+    background-color: #E72A7F;
+    display: flex;
+    justify-content: space-around;
+}
+.right-div-guide{
+    display: flex;
+    gap: 20px;
+   align-items: center;
+}
+.data{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.guide-sign{
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.img-div-guide{
+    padding: 10px;
+}
+.div-parent-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.div-child-div{
+    width: 80%;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+    
+    
+}
+.guide-down-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+     margin-top: 50px;
+    
+}
+.menu-lovely{
+    font-size: 30px;
+}
+.companent-footer{
+    width: 100%;
+  
+
+}

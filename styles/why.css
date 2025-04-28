@@ -45,3 +45,14 @@
 .meeting-security{
     text-align: center;
 }
+
+@media(max-width:768px){
+    .why-child{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .wht-text{
+        width: 90%;
+    }
+}
