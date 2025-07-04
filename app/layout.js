@@ -27,3 +27,30 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+// components/Layout.jsx
+// import Footer from './companents/Footer';
+// // components/Layout.jsx
+
+
+// const RootLayout = ({ children }) => {
+//   return (
+//     <>
+//       {/* istəsən buraya Header də əlavə edə bilərsən */}
+//       <main>{children}</main>
+//       <Footer />
+//     </>
+//   );
+// };
+
+// export default RootLayout;
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="en">
+//       <body>
+//         <main>{children}</main>
+//         <Footer />
+//       </body>
+//     </html>
+//   );
+// }
+

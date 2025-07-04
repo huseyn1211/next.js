@@ -1,59 +1,149 @@
-.footer-divs{
+.footer-divs {
     display: flex;
     justify-content: space-evenly;
     border-top: 1px solid gray;
-    /* margin-top: 100px; */
-    
+   
+
 }
-.footer-main-page{
+
+.footer-main-page {
     display: flex;
     justify-content: center;
     gap: 20px;
     width: 60%;
     padding: 30px;
     margin-top: 20px
-
 }
-.footer-box{
+
+.footer-box {
     font-size: 13px;
     font-weight: 300;
     color: gray;
     cursor: pointer;
 }
-.footer-box:hover{
+
+.footer-box:hover {
     color: black;
 }
-.img-parent-div{
+
+.img-parent-div {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.img-child-div{
-    width: 70px;
+
+.img-child-div {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
 }
-.img-parent-footer{
+
+.photo-div-footer {
+    width: 100%;
+    height: auto;
+    /* display: block;  */
+}
+
+
+.img-parent-footer {
     width: 100px;
     margin-top: 30px;
 }
 
-.img-parent-icons{
-    /* margin-top: 30px; */
-}
-.last-p{
+
+.last-p {
     display: flex;
     justify-content: center;
-    /* padding: 20px; */
     margin-block: 30px;
     font-size: 12px;
     color: gray;
 }
-.paragraf-parent{
+
+.paragraf-parent {
     display: flex;
 }
-.blue{
+
+.blue {
     color: #0D9AFE;
     width: max-content;
     height: max-content;
     border-bottom: 1px solid #0D9AFE;
     margin-inline: 5px;
+}
+
+@media (max-width: 1024px) {
+    .footer-divs {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-main-page {
+        width: 90%;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-box {
+        font-size: 14px;
+    }
+
+    .img-parent-footer {
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    .img-child-div {
+        width: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-main-page {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .footer-box {
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+
+    .img-parent-footer {
+        width: 70px;
+        margin-top: 15px;
+    }
+
+    .img-child-div {
+        width: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-divs {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .footer-main-page {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .footer-box {
+        font-size: 12px;
+        text-align: center;
+    }
+    .img-parent-footer {
+        width: 60px;
+        margin-top: 10px;
+    }
+    .img-child-div {
+        width: 70px;
+       
+    }
 }

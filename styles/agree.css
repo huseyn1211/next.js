@@ -1,5 +1,4 @@
 .div-header-agree{
-    /* background-color: #E72A7F; */
     display: flex;
     justify-content: space-between;
     width: 75%;
@@ -9,8 +8,6 @@
     display: flex;
     justify-content: center;
 }
-
-
 .div-member{
     display: flex;
     gap: 20px;
@@ -34,10 +31,8 @@
 .text-parent-agree{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
-    margin-block: 20px;
-    
+    margin-block: 20px; 
 }
 .texts{
     width: 80%;
@@ -56,4 +51,58 @@
 .head-paragraf-agree{
     font-size: 30px;
     padding: 40px;
+}
+@media (max-width: 1024px) {
+  .div-header-agree {
+    width: 90%;
+    padding: 0 20px;
+  }
+  
+  .div-member {
+    gap: 15px;
+  }
+
+  .blog-agree {
+    font-size: 13px;
+  }
+
+  .div-agree-sign {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .text-centence {
+    font-size: 15px;
+    padding: 25px;
+    width: 100%;
+  }
+
+  .texts {
+    width: 90%;
+  }
+
+  .head-paragraf-agree {
+    font-size: 26px;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .div-header-agree {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 95%;
+  }
+
+  .div-member {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .agree-img img {
+    width: 150px;
+    height: auto;
+  }
 }

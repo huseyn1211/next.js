@@ -2,6 +2,7 @@ import React from 'react'
 import '../../styles/random.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import Footer from './Footer'
 
 export default function Random() {
   return (
@@ -109,6 +110,7 @@ export default function Random() {
       </div>
     </div>
       <div className='last-div'>Gonulden Sevenler Blog Sitesi  </div>
+      <Footer/>
       
 
 

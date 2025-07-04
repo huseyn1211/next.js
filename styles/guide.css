@@ -55,3 +55,95 @@
   
 
 }
+@media (max-width: 1024px) {
+  .guide-menu {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .right-div-guide {
+    gap: 15px;
+  }
+
+  .data {
+    font-size: 13px;
+  }
+
+  .guide-sign {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .menu-lovely {
+    font-size: 26px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .div-child-div {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guide-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .img-div-guide img {
+    width: 150px;
+    height: auto;
+  }
+
+  .right-div-guide {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .data {
+    font-size: 12px;
+  }
+
+  .guide-sign {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .menu-lovely {
+    font-size: 22px;
+    padding: 0 15px;
+  }
+
+  .div-child-div {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-div-guide img {
+    width: 120px;
+  }
+
+  .data {
+    font-size: 11px;
+  }
+
+  .guide-sign {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .menu-lovely {
+    font-size: 18px;
+  }
+
+  .div-child-div {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,313 @@
+
+.parent-div-new {
+  display: flex;
+  flex-direction: column;
+  width: 100% ;
+  padding-inline: 0px;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+}
+.head-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.mobile-site {
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-div {
+  color: red;
+  border: 1px solid black;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.mobile-div:hover {
+  text-decoration: underline;
+}
+
+.language-select {
+  font-weight: 600;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+
+.input-parent-new {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.select-new {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-new {
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  /* background-color: teal; */
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logOut-button {
+  background-color: #3B359C;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.div-menu {
+  display: flex;
+  height: 100%;
+  max-height: 70px;
+  font-weight: 600;
+}
+
+.div-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  background-color: #3B359A;
+  color: #FFF6D4;
+}
+
+.div-line {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.div-line:hover {
+  text-decoration: underline;
+}
+
+.div-bg {
+  background-color: #3B359A;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 90px;
+}
+
+
+.div-right-menu {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 15px;
+  background-color: #E6E8ED;
+  position: relative;
+  gap: 40px;
+}
+
+.div-right-menu::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  background-color: #3B359A;
+  bottom: 0;
+}
+
+.div-find {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.div-pure {
+  color: #3B359A;
+}
+
+.div-subscribe {
+  background-color: #A41D2C;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  
+}
+
+
+.second-section {
+  width: 100%;
+  background-color: #E6E8ED;
+  height: 100%;
+}
+
+.div-matrushka {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box-parent {
+  display: flex;
+  position: relative;
+}
+
+.box-parent::after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #363185;
+}
+
+.box0 {
+  padding: 15px;
+  border: 1px solid #3B359A;
+  font-weight: 700;
+}
+
+.box1 {
+  background-color: #363185;
+  color: #FFF6D9;
+}
+
+.box2,
+.box3 {
+  background-color: #E6E8ED;
+  color: #3B359A;
+}
+
+.step-div {
+  font-size: 10px;
+}
+
+.div-bg-blue {
+  background-color: #363185;
+  margin-block: 20px;
+}
+
+.blue-p {
+  color: #FFE7C3;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 10px 0;
+}
+
+.blue-p2 {
+  color: #FFE7C3;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.div-inputs-parent {
+  border: 1px solid #EFDFBE;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-line {
+  display: flex;
+  gap: 40px;
+  border-bottom: 2px dashed #EFDFBE;
+}
+
+.input-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  border: 5px solid black;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+  .div-menu {
+    flex-direction: column;
+    max-height: none;
+  }
+  
+  .div-home, .div-right-menu {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .div-home {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .div-right-menu {
+    padding: 10px;
+  }
+  
+  .div-find, .div-subscribe {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .div-subscribe {
+    margin-top: 10px;
+  }
+  .my-account{
+    width: 20%;
+  }
+  .welcome-new{
+    width: 20%;
+    padding: 5px;
+  }
+}
+ @media (max-width: 475px) {
+  .input-parent-new {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .my-account select.select-new {
+    font-size: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .welcome-new {
+    font-size: 9px;
+    padding: 5px 6px;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .logOut-button {
+    font-size: 9px;
+    padding: 4px 6px;
+    width: 100%;
+  }
+   .my-account{
+    display: none;
+  }
+  .welcome-new{
+    width: 20%;
+    padding: 5px;
+  }
+}
+
